@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichi's Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Serif+Display&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style-projects.css">
+</head>
+
+<body style="background-color: #FAF8F1;">
+  <!-- DONE -->
+  <!-- HEADING -->
+  <section id = "Heading">
+      <div class="container">
+          <header class="d-flex flex-wrap justify-content-center pt-4 pb-1 mb-4 border-bottom">
+            <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto m-sm-0 p-sm-0">
+              <p id = "my-name"><a href="../index.html">My Portfolio Website</a></p>
+            </div>
+            <div class = "my-2 p-sm-0">
+              <button type="button" class="btn  mx-2 px-3 py-2 button-text py-sm-0"><a href = "resume.html">Resume</a></button>
+              <p style = "display: inline; color: salmon;">|</p>
+              <button type="button" class="btn  mx-2 px-3 py-2 button-text my-sm-0 py-sm-0"><a href = "./projects.html">Projects</a></button>
+              <p style = "display: inline; color: salmon;">|</p>
+              <button type="button" class="btn  mx-2 px-3 py-2 button-text my-sm-0 py-sm-0"><a href = "./Contact.html">Contact</a></button>
+            </div>
+          </header>
+      </div>
+      
+  </section>
+
+  <!-- DONE -->
+  <!-- COVER -->
+  <section id = "Cover">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="color: brown;"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="background-color: whitesmoke; filter:brightness(50%); object-fit: cover;">
+        <div class="carousel-item active">
+          <div class = "container d-flex justify-content-center align-items-center">
+            <img src="../assets/mondrian-pic.png" class="d-block" alt = "Mondrian Project" id = "mondrian-pic">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class = "container d-flex justify-content-center align-items-center">
+            <img src="../assets/tinDawg.png" class="d-block w-100" alt="TinDawg Project">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class = "container d-flex justify-content-center align-items-center">
+            <img src="../assets/MoveIt.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-caption d-none d-md-block" style="color: white;">
+        <h1>Past Projects</h1>
+        <p>Mondrian, Tindawg, Move It</p>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    <div class="black-box"> </div>
+  </div>
+    
+  </section>
+
+  <!-- CONTENT -->
+  <section id = "content">
+    <!-- #1 -->
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis section-header">Mondrian Project</h1>
+          <p class="col-lg-8 mx-auto lead">
+            This marks one of my initial endeavors to explore the functionality of CSS's grid layout. I recreated a renowned art piece by Piet Mondrian entirely from scratch, employing both flex layout and grid layout techniques.
+          </p>
+          <img src="../assets/mondrian-pic.png" height = "500px">
+        </div>
+      </div>
+    </div>
+    <!-- #2 -->
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis section-header">TinDawg Project</h1>
+          <p class="col-lg-8 mx-auto lead">
+            This marks one of my initial endeavors to explore the functionality of CSS's grid layout. I recreated a renowned art piece by Piet Mondrian entirely from scratch, employing both flex layout and grid layout techniques.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 Tin-container">
+              <img
+                src="../assets/tinDawg.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Page Cover"
+              />
+              <img
+                src="../assets/tinDawg5.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mobile Page Cover"
+              />
+              
+            </div>
+          
+            <div class="col-lg-4 mb-4 mb-lg-0 Tin-container">
+              <img
+                src="../assets/tinder-connection-internet-network-communication-social-media-svgrepo-com.svg"
+                class="w-50 shadow-1-strong rounded mb-4"
+                alt="Tinder Logo"
+                style="border-style: none;"
+              />
+          
+              <img
+                src="../assets/tinDawg4.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Actual Code"
+              />
+            </div>
+          
+            <div class="col-lg-4 mb-4 mb-lg-0 Tin-container">
+              <img
+                src="../assets/tinDawg2.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Pebbles quote"
+              />
+          
+              <img
+                src="../assets/tinDawg3.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="PricePlan"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis section-header">Move It Project</h1>
+          <p class="col-lg-8 mx-auto lead">
+            This marks one of my initial endeavors to explore the functionality of CSS's grid layout. I recreated a renowned art piece by Piet Mondrian entirely from scratch, employing both flex layout and grid layout techniques.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 Move-container">
+              <img
+                src="../assets/MoveIt1.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mobile Home"
+              />
+              <img
+                src="../assets/MoveIt3.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Features Wide"
+              />
+              
+              
+            </div>
+          
+            <div class="col-lg-4 mb-4 mb-lg-0 Move-container">
+              <img
+                src="../assets/box-seam.svg"
+                class="w-50 shadow-1-strong rounded mb-4"
+                alt="Logo"
+                style="border-style: none;"
+              />
+              <img
+                src="../assets/MoveIt4.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Carousel+Footer"
+              />
+          
+              
+            </div>
+          
+            <div class="col-lg-4 mb-4 mb-lg-0 Move-container">
+              
+              <img
+                src="../assets/MoveIt2.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Desktop Home"
+              />
+              <img
+                src="../assets/MoveIt5.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Features Narrow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- DONE -->
+  <!-- FOOTER -->
+  <section id = "footer">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Ittipat, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/twitter-svgrepo-com.svg" height = "24"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src = "../assets/instagram-svgrepo-com.svg" height = "24"/></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src = "../assets/facebook-svgrepo-com.svg" height = "24"/></a></li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

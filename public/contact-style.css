@@ -1,0 +1,84 @@
+
+
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+body{
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-icons{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    position: relative;
+    display: inline-block;
+    margin: 0.15em;
+    font-size: 1.2em;
+}
+
+i {
+    position:absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 265ms ease-out;
+}
+
+a{
+    display: inline-block;
+}
+
+div >ul li a:before{
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: " ";
+    background: linear-gradient(45deg, #76453B, #B19470);
+    transform: scale(1);
+    border-radius: 100%;
+    transition: all 265ms ease-out;
+}
+
+i {
+    color: #fff;
+}
+
+a:hover:before{
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+a:hover i {
+    transform: scale(2.2);
+    color: #ae31d9;
+    background: linear-gradient(45deg, #739072, #D2E3C8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
+
+.square{
+    & a:before{
+        background:linear-gradient(45deg, #365486, #2D3250);
+        border-radius: 10%;
+    }
+
+    & a:hover:before {
+        transform: rotate(-180deg);
+        border-radius: 100%;
+    }
+
+    & a:hover i {
+        transform: scale(1.6);
+        color: #fff;
+        transform: scale(1.6);
+        -webkit-text-fill-color: #fff;
+    }
+}

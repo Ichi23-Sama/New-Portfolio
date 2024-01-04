@@ -1,0 +1,30 @@
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.carousel .carousel-indicators{
+    background-color: gray;
+    opacity: 80%;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+}
+
+#mondrian-pic{
+    height: 653.88px;
+}
+
+.section-header{
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.Tin-container img{
+    border: 5px salmon;
+    border-style: outset;
+}
+
+.Move-container img{
+    border: 5px grey;
+    border-style: outset;
+}

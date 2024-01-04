@@ -1,0 +1,124 @@
+body{
+    background-color:#FAF8F1;
+    /* background-color: black; */
+    position: relative;
+    min-height: 100vh;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+
+#my-name{
+    font-size: 3rem;
+    font-family: "DM Serif Display", sans-serif;
+    @media  (min-width: 576px) {
+        font-size: 2rem;
+    }
+}
+
+.button-text{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "DM Serif Display", sans-serif;
+}
+#parent-1{
+    position: relative;
+}
+#square-1{
+    border: 2px solid black;
+    border-radius: 45%;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: -25px;
+    left: 55px;
+    z-index: 5;
+}
+#square-2{
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: -25px;
+    left: 55px;
+    z-index: 5;
+}
+#man-img{
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
+    z-index: 10;
+}
+#section-header{
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    color: salmon;
+}
+
+#Heading{
+    width: 100%;
+    top: 0;
+
+    z-index: 5;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: .75fr auto 3fr;
+    grid-auto-rows: auto;
+}
+
+#content{
+    grid-column: span 2;
+    /* border: 1px solid; */
+}
+.resume-heading{
+    font-family:'Playfair Display', serif;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+.box{
+    letter-spacing: 2px;
+    border: 1px solid;
+}
+
+.resume-content{
+    font-family: ' Display', serif;
+    font-size: 1.25rem;
+}
+
+#ContactGmail{
+ size: 3rem;
+ letter-spacing: 5px;
+ font-family: "DM Serif Display", sans-serif;
+}
+
+.moreContact{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
